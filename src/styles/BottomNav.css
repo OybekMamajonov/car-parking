@@ -1,0 +1,101 @@
+/* BottomNav uchun yangilangan stillar */
+.fixed {
+    position: fixed;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.shadow-lg {
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.z-\[1000\] {
+    z-index: 1000;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.border-t-2 {
+    border-top-width: 2px;
+}
+
+.border-blue-200 {
+    border-color: #BFDBFE;
+}
+
+.backdrop-blur-md {
+    backdrop-filter: blur(8px);
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.mt-1 {
+    margin-top: 0.25rem;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item-inactive {
+    color: #4B5563;
+    background: linear-gradient(145deg, #f0f0f0, #e0e0e0);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.5);
+}
+
+.nav-item-inactive:hover {
+    transform: scale(1.1);
+    background: linear-gradient(145deg, #e0e0e0, #d0d0d0);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15), -6px -6px 12px rgba(255, 255, 255, 0.7);
+}
+
+.nav-item-active {
+    color: #FFFFFF;
+    background: linear-gradient(145deg, #3B82F6, #6366F1);
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
